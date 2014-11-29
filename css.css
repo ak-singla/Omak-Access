@@ -1,0 +1,84 @@
+
+
+.last-page {
+  background: #333;
+  text-align: center;
+  color: #aaa; 
+  padding: 30px 20px;
+}
+.last-page > h2 {
+  color: #aaa;
+  margin-bottom: 5px;
+}
+.last-page > p {
+  margin: 0;
+  color: #aaa;
+}
+
+
+/* Omak Social Links Styles
+***************************************/
+ul.omaksociallinks {
+  list-style: none outside none;
+  margin: 10px 0 5px;
+}
+.omaksociallinks li {
+  display: inline;
+  height: 37px;
+  width: 41px;
+}
+.omaksociallinks li a {
+  background: url("images/icons-246x37.png") no-repeat scroll 0 0 transparent;
+  display: inline-block;
+  height: 37px;
+  line-height: 37px;
+  margin: 0 1px 5px 0;
+  max-width: 41px;
+  text-indent: 1999px;
+  border-radius: 10px 10px;
+}
+.omaksociallinks li.twitter a {
+  background-position: -41px 0;
+}
+.omaksociallinks li.gplus a {
+  background-position: -82px 0;
+}
+.omaksociallinks li.linkedin a {
+  background-position: -123px 0;
+}
+.omaksociallinks li.rss a {
+  background-position: -164px 0;
+}
+.omaksociallinks li.website a {
+  background-position: -205px 0;
+}
+
+
+@media (max-width: 767px) {
+	.side-enquiry-holder {
+		border-radius: 10px 0 0;
+		bottom: 0;
+		height: 20px;
+		width: 125px;
+	}
+	.side-enquiry {
+		background: none;
+		color: #efefef;
+		margin: 0;
+		padding: 3px;
+		right: 5px;
+		text-indent: 0;
+		 width: 112px;
+	}
+	
+	.side-enquiry.have-a-query, .side-enquiry.get-a-quote {
+		background: none; 
+	}
+	
+}
+
+@media (max-width: 767px) {
+	#form_container {
+		overflow-x: scroll;
+	}
+}

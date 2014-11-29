@@ -1,0 +1,75 @@
+
+/* Enquiry Popup Form Styles 
+----------------------------------------------------*/
+
+.wrap {
+	margin: 30px auto 20px;
+}
+h2.page-header {
+	padding:15px 10px;background:#333;border:1px solid #ccc;color:#efefef
+}
+.form-container {
+	border:1px solid #ccc; padding:40px 20px;
+}
+.branding-link {
+	float:right;
+}
+.branding-link a{
+	color: #efefef;
+	font-size: 0.6em;
+	text-decoration: none;
+}
+.branding-link a:hover{
+	color: #fff;
+	text-decoration: underline;
+	text-shadow: 0 0 1px #ccc;
+}
+
+.default-text {
+	font-size: 12px;
+	color: #777;
+}				
+.display-handle {
+	float: right; 
+	cursor: pointer; 
+}
+
+	
+.section {
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  margin-bottom: 25px; 
+}
+
+.section hr {
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+	.side-enquiry-holder {
+		border-radius: 10px 0 0;
+		bottom: 0;
+		height: 20px;
+		width: 125px;
+	}
+	.side-enquiry {
+		background: none;
+		color: #efefef;
+		margin: 0;
+		padding: 3px;
+		right: 5px;
+		text-indent: 0;
+		 width: 112px;
+	}
+	
+	.side-enquiry.have-a-query, .side-enquiry.get-a-quote {
+		background: none; 
+	}
+	
+}
+
+@media (max-width: 767px) {
+	#form_container {
+		overflow-x: scroll;
+	}
+}
